@@ -12,9 +12,9 @@ import * as serviceWorker from "./serviceWorker";
 
 const DO_NOT_LOGIN = false;
  
-runWithAdal(authContext, () => {
+/*runWithAdal(authContext, () => {
    require('./index.js');
-},DO_NOT_LOGIN);
+},DO_NOT_LOGIN);*/
 
 ReactDOM.render(<App/>, document.getElementById("root"));
 
